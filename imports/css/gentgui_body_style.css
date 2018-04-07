@@ -93,6 +93,16 @@ h1{
 
 }
 
+.gentgui_button_lit{
+
+		height: 30px;
+		padding-left: 5px;
+		padding-right: 5px;
+		border-radius: 5px;
+		font-family: var(--font1);
+
+}
+
 button{
 
 		cursor: pointer;
