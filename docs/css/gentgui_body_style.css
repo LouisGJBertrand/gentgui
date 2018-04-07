@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kanit|Poppins|IBM+Plex+Mono');
+
+:root{
+
+		--font1: 'Poppins';
+		--font2: 'Kanit';
+		--font3: 'IBM Plex Mono';
+
+}
+
+body{
+
+		font-family: var(--font1);
+		color: #222;
+
+		text-align: center;
+
+}
+
+*{
+
+		border: none;
+
+}
+
+div.brand{
+
+}
+
+a{
+
+		color: #7289DA;
+		text-decoration: none;
+
+}
+
+h1{
+
+		font-family: var(--font2);
+
+}
+
+.gentgui_button_light{
+
+		background: #e0e0e0;
+		color: #564f4f;
+
+}
+
+.gentgui_button_lighter{
+
+		background: #f4f4f4;
+		color: #564f4f;
+
+}
+
+.gentgui_button_dark{
+
+		background: #262525;
+		color: #f2f2f2;
+
+}
+
+.gentgui_button_warn{
+
+		background: #f75959;
+		color: #f2f2f2;
+
+}
+
+.gentgui_button_softwarn{
+
+		background: #f7d458;
+		color: #3b3c3d;
+
+}
+
+.gentgui_button_discord_Blurple{
+
+		background: #7289DA;
+		color: #3b3c3d;
+
+}
+
+.gentgui_button_big{
+
+		height: 60px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 5px;
+		font-family: var(--font1);
+
+}
+
+button{
+
+		cursor: pointer;
+
+}
+
+pre{
+
+		background: #262525;
+		color: #f7d458;
+		width: 50%;
+		max-width: 847px;
+		padding: 20px;
+		font-size: 0.8em;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		font-family: var(--font3);
+
+}
