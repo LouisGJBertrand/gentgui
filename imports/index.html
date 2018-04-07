@@ -17,6 +17,10 @@
 		<title> GentGui </title>
 
 		<link rel="stylesheet" type="text/css" href="css/gentgui_body_style.css">
+		<link rel="stylesheet" type="text/css" href="css/gentgui_scrollbar_style.css">
+
+		<link rel="icon" type="image/png" href="imgs/favicon.png" />
+
 	
 	</head>
 	
@@ -27,10 +31,28 @@
 			<img src="imgs/logo.png"><br>
 			<b>Gent Gui by</b> <a href="http://pylott.yt" target="blank">Louis Bertrand</a><br><br>
 
-		<button class="gentgui_button_softwarn gentgui_button_big">download the lastest version</button><br><br>
-		<button class="gentgui_button_discord_Blurple gentgui_button_big">GitHub</button><br><br>
+		<a href="https://github.com/PYLOTT/gentgui/releases" target="blank"><button class="gentgui_button_softwarn gentgui_button_big">download the lastest version</button></a><br><br>
+		<a href="https://github.com/PYLOTT/gentgui" target="blank"><button class="gentgui_button_discord_Blurple gentgui_button_big">GitHub</button></a><br><br>
 
 		</div>
+
+		<h1>What is it?</h1>
+		<p class="gentgui_paragraph_midsized gentgui_paragraph_justified">Gent Gui is a free tool that allow you to do a pretty websites for your own uses! But still, free means that nobody pays for this much work so you can tip me in <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4KNJM44GUWFPL">here</a>! I will be glad to see how many peoples supports me!</p>
+<br><br><br>
+		<h1>How it works?</h1>
+		<p class="gentgui_paragraph_midsized gentgui_paragraph_justified">This API is based on 'class' tag but still compatible with other tools like bootstrap."but how is it compatible?" you might say. well it uses group classes, that mean that it formed like it will not affect other APIs, let me explain;<br><br>
+
+			You use several class tags like "gentgui_button_discord_Blurple" or "gentgui_form_container".
+			you can figure that each gentgui's classes has the same construction
+			That's begins with "gentgui_" then followed by the "element_" parents and then the actual element and it ends with some extra things like "big" or "warn".<br><br>
+
+			here is a little graphic explanation of multiple class!<br>
+			<center>
+			<img src="imgs/button_coding_tell.png">
+			</center>
+
+		</p>
+<br><br><br>
 
 		<h1>ELEMENTS ShowDown</h1>
 
@@ -41,8 +63,7 @@
 gentgui_button_big => button base style<br>
 gentgui_button_color => color of the button<br>
 e.g.
-&lt;button class="gentgui_button_light gentgui_button_big"&gt;button.light&lt;/button&gt;
-		</pre>
+&lt;button class="gentgui_button_light gentgui_button_big"&gt;button.light&lt;/button&gt;</pre>
 
 		<button class="gentgui_button_discord_Blurple gentgui_button_big">button.discord_Blurple</button>
 		<button class="gentgui_button_light gentgui_button_big">button.light</button>
@@ -51,7 +72,52 @@ e.g.
 		<button class="gentgui_button_warn gentgui_button_big">button.warn</button>
 		<button class="gentgui_button_softwarn gentgui_button_big">button.softwarn</button><br>
 		<br>
-		
+		<b>little buttons</b><br>
+		gentgui_button_lit<br>
+
+		<pre>Class names:<br>
+gentgui_button_lit => button base style<br>
+gentgui_button_color => color of the button<br>
+e.g.
+&lt;button class="gentgui_button_softwarn gentgui_button_lit"&gt;button.light&lt;/button&gt;</pre>
+
+		<button class="gentgui_button_discord_Blurple gentgui_button_lit">button.discord_Blurple</button>
+		<button class="gentgui_button_light gentgui_button_lit">button.light</button>
+		<button class="gentgui_button_lighter gentgui_button_lit">button.lighter</button>
+		<button class="gentgui_button_dark gentgui_button_lit">button.dark</button>
+		<button class="gentgui_button_warn gentgui_button_lit">button.warn</button>
+		<button class="gentgui_button_softwarn gentgui_button_lit">button.softwarn</button><br>
+		<br>
+		<b>Forms</b><br>
+		gentgui_form<br>
+
+		<pre>Class names:
+
+gentgui_form => form style
+
+gentgui_form_input_textbox => Text box style
+
+gentgui_form_input_pass => add special effects for passwords
+
+gentgui_form_input_sub => just the button</pre>
+
+		<br><br>
+
+		<form method="post" class="gentgui_form gentgui_form_centered">
+
+			<div class="gentgui_form_container">
+
+				<h1>CONNECTION SAMPLE</h1>
+				
+				login infos : <input type="text" name="login" class="gentgui_form_input_textbox"><br>
+				password : <input type="password" name="pass" class="gentgui_form_input_textbox gentgui_form_input_pass"><br>
+				<input type="submit" class="gentgui_button_softwarn gentgui_button_lit gentgui_form_input_sub"><br>
+
+			</div>
+
+		</form>
+		<br><br>
+		<br><br>
 
 	</body>
 </html>
