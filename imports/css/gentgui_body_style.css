@@ -83,6 +83,21 @@ h1{
 
 }
 
+.gentgui_paragraph_midsized{
+
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto; 
+
+}
+
+.gentgui_paragraph_justified{
+
+		text-align: justify;
+
+}
+
+
 .gentgui_button_big{
 
 		height: 60px;
@@ -100,6 +115,38 @@ h1{
 		padding-right: 5px;
 		border-radius: 5px;
 		font-family: var(--font1);
+
+}
+
+.gentgui_form_input_textbox{
+
+		background: transparent;
+		border-bottom: 2px solid #262525;
+		margin-bottom: 10px;
+		height: 40px;
+
+}
+
+.gentgui_form{
+
+
+		background: #f4f4f4;
+		width: 500px;
+		padding-bottom: 20px;
+		vertical-align: middle;
+
+}
+
+.gentgui_form_centered{
+
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+.gentgui_form .gentgui_form_container{
+	
+		vertical-align: middle;
 
 }
 
@@ -121,5 +168,7 @@ pre{
 		margin-right: auto;
 		text-align: left;
 		font-family: var(--font3);
+		overflow-x: scroll;
 
 }
+
