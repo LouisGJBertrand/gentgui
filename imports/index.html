@@ -4,12 +4,12 @@
 
 		<!--
 
-		Gent GUI DEVELOPPED BY 'Louis Bertrand'. 
-		contacts:
-		http://pylott.yt/contact.php
+		 Gent GUI DEVELOPPED BY 'Louis Bertrand'. 
+			            contacts:
+			  http://pylott.yt/contact.php
 
-		download the lastest version
-
+			  download the lastest version:
+		https://github.com/PYLOTT/gentgui/releases
 
 
 		-->
@@ -21,6 +21,7 @@
 
 		<link rel="icon" type="image/png" href="imgs/favicon.png" />
 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	</head>
 	
@@ -28,7 +29,7 @@
 
 		<div class="brand">
 			
-			<img src="imgs/logo.png"><br>
+			<img class="gentgui_img" src="imgs/logo.png"><br>
 			<b>Gent Gui by</b> <a href="http://pylott.yt" target="blank">Louis Bertrand</a><br><br>
 
 		<a href="https://github.com/PYLOTT/gentgui/releases" target="blank"><button class="gentgui_button_softwarn gentgui_button_big">download the lastest version</button></a><br><br>
@@ -48,7 +49,7 @@
 
 			here is a little graphic explanation of multiple class!<br>
 			<center>
-			<img src="imgs/button_coding_tell.png">
+			<img class="gentgui_img" src="imgs/button_coding_tell.png">
 			</center>
 
 		</p>
@@ -99,7 +100,22 @@ gentgui_form_input_textbox => Text box style
 
 gentgui_form_input_pass => add special effects for passwords
 
-gentgui_form_input_sub => just the button</pre>
+gentgui_form_input_sub => just the button
+
+e.g.
+&lt;form method=&quot;post&quot; class=&quot;gentgui_form gentgui_form_centered&quot;&gt;
+
+	&lt;div class=&quot;gentgui_form_container&quot;&gt;
+
+		&lt;h1&gt;CONNECTION SAMPLE&lt;/h1&gt;
+
+		login infos : &lt;input type=&quot;text&quot; name=&quot;login&quot; class=&quot;gentgui_form_input_textbox&quot;&gt;&lt;br&gt;
+		password : &lt;input type=&quot;password&quot; name=&quot;pass&quot; class=&quot;gentgui_form_input_textbox gentgui_form_input_pass&quot;&gt;&lt;br&gt;
+		&lt;input type=&quot;submit&quot; class=&quot;gentgui_button_softwarn gentgui_button_lit gentgui_form_input_sub&quot;&gt;&lt;br&gt;
+	
+	&lt;/div&gt;
+
+&lt;/form&gt;</pre>
 
 		<br><br>
 
