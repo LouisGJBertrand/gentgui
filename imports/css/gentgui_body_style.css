@@ -85,9 +85,11 @@ h1{
 
 .gentgui_paragraph_midsized{
 
-		width: 700px;
+		width: 100%;
+		max-width: 700px;
 		margin-left: auto;
 		margin-right: auto; 
+		display: block;
 
 }
 
@@ -123,7 +125,7 @@ h1{
 		background: transparent;
 		border-bottom: 2px solid #262525;
 		margin-bottom: 10px;
-		height: 40px;
+		height: 30px;
 
 }
 
@@ -131,7 +133,8 @@ h1{
 
 
 		background: #f4f4f4;
-		width: 500px;
+		width: 100%;
+		max-width: 500px;
 		padding-bottom: 20px;
 		vertical-align: middle;
 
@@ -172,3 +175,9 @@ pre{
 
 }
 
+img.gentgui_img{
+
+	width: 100%;
+	max-width: 500px;
+
+}
