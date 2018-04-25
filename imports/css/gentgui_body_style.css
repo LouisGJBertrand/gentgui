@@ -181,3 +181,52 @@ img.gentgui_img{
 	max-width: 500px;
 
 }
+
+.gentgui_headers_topscreen{
+
+	width: 100%;
+	text-align: left;
+	height: 95px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.gentgui_headers_topscreen h1{
+
+	float: left;
+
+}
+
+.gentgui_headers_topscreen a{
+
+	margin-left: 15px;
+
+}
+
+.gentgui_containerdemo{
+
+	max-width: 700px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.gentgui_floatright{
+
+	float: right;
+
+}
+
+.gentgui_headers_topscreen_menu{
+
+	padding-top: 35px;
+
+}
+
+.gentgui_headers_topscreen_light{
+
+	background: #f4f4f4;
+
+}
